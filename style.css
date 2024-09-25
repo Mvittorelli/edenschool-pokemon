@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	margin: 10px;
+}
+.card,
+.card2,
+.card3 {
+	border: solid 2px black;
+	border-radius: 10px;
+	background: left / cover url(/img/fond.jpg);
+}
+img {
+	width: 50%;
+}
+.num,
+.d {
+	width: fit-content;
+	border-radius: 5px;
+	padding: 10px;
+}
+.num {
+	background-color: cornflowerblue;
+}
+.d {
+	padding-right: 20%;
+	background-color: red;
+}
+.typee {
+	background-color: orange;
+	border-radius: 10px;
+	padding: 10px;
+}
+.type {
+	margin-left: 85%;
+}
+.vol {
+	background-color: blue;
+}
+
+.feu {
+	background-color: red;
+}
+
+.vol,
+.feu {
+	padding: 10px;
+	border-radius: 20px;
+	width: fit-content;
+	color: #fff;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
